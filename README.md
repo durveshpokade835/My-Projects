@@ -1,1 +1,108 @@
 # My-Projects
+
+
+
+
+
+Experiment 1 : Create git repo.
+
+step 1) create repositery
+step 2) Edit it and commit
+-------------------------------------------------------------------------------------------------------------------------------
+Experiment 2 : Gitbash commands.
+
+create folder then do gitbash here
+
+then type following commands
+
+1) git --version
+
+2) git init
+
+then go to folder view and hidden items then .git folder will display
+
+then create .txt file in folder and not in .git
+then add random text and save
+create 2 or 3 such files.
+
+then type 
+git status 
+command
+
+then type git add filename.txt
+
+3)git config --global user.name 'username'
+4) git config --global user.email 'emailId'
+5) git config --global --list
+6)git commit -m 'random text'
+7) git log
+----------------------------------------------------------------------------------------
+ Experiment : Pull 
+
+create new folder of any name
+ open github account-code-copy link-then type following commands
+git remote add origin (then paste the link) 
+git remote show origin
+git remote add origin (and paste the link
+if error occurs then it is verified)-- for verification. // paste link as it is not in bracket.
+
+git pull origin main
+
+-----------------
+Git push
+create new folder of any name then git bash here
+ then execute version and init commands
+
+then create txt file in that folder and add some text in it
+ type following commands
+1) git status
+2) git add filname
+3) git status
+4) git commit -m 'random text'
+ copy link from github account of main
+5) git remote add origin and paste link
+6) git remote show origin
+7) git remote -v
+8) git push -u origin master
+then go to github account-main dropdown-master.
+----------------------------------------------------------------------------------------------------
+Fork.
+
+Create and fork repositery in Github
+
+go to github account-create new tab-enter any random url-click on fork-create new repositary.
+-------------------------------------------------------------------------------------------------------------
+
+Docker.
+
+open docker software-login ur account-cmd-
+
+1) docker pull alpine
+2) docker images
+3) docker run alpine sh
+4) docker ps -a
+
+5)docker run -d -it alpine sh
+6) docker ps -a
+7) docker run -it alpine sh
+	/ # ls
+	/ # exit
+8) rmi -f alpine
+
+9) docker run -it --name=MyLinux alpine.sh --> to change the name of container.
+----------------------------------------------------------------------------------------------------------------------------
+create folder-gitbash-
+type following command
+git branch flow
+git checkout
+
+-------------------------------------------------------------------------------------------------------------------
+Branching
+
+create repositary-insights-network-check branches-code-main-create branches-create a new branch of new name-
+insights-check for branches again-go to branch-edit code-commit changes-
+main branch-compare and pull-create a pull request-merge pull request-confirm.
+
+ 
+DevOps.txt
+Displaying DevOps.txt.
